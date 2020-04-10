@@ -64,6 +64,14 @@ module.exports = {
                     {
                         resolve: `gatsby-rehype-prismjs`,
                     },
+                    {
+                        resolve: "gatsby-plugin-google-tagmanager",
+                        options: {
+                            id: "GTM-W9Q9W9F",
+                            includeInDevelopment: false,
+                            defaultDataLayer: { platform: "gatsby" },
+                        },
+                    },
                 ],
             },
         },
